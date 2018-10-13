@@ -7,39 +7,26 @@
 }
 
 .navbar-link {
-  font-size: 18px;
+  font-size: 20px;
   width: 100%;
   font-family: "Montserrat",sans-serif;
   font-weight: 500;
   align-self: center;
   text-align: center;
-  margin-left: 15px;
-  margin-right: 15px;
   cursor: pointer;
   text-decoration: none;
 }
 
-.navbar-brand {
-  z-index: 1;
-
-}
-
-
-.navbar-title {
-  font-size: 48px;
-  color: #3b3e42;
-  width: 100%;
-  font-family: "Montserrat",sans-serif;
-  font-weight: 500;
-  align-self: center;
-  text-align: center;
-  margin-left: 15px;
-  margin-right: 15px;
-  cursor: pointer;
-  text-decoration: none;
-}
 
 .navbar-link:hover {
   cursor: pointer;
   text-decoration: none;
+}
+
+.navbar-partners, .navbar-about {
+  margin-right: 145px;
+}
+
+.navbar-faqs, .navbar-contact {
+  margin-left: 145px;
 }
