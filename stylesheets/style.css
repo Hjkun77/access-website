@@ -41,7 +41,7 @@ body {
     margin-left: 5vw;
   }
 
-  /* Home */
+  /* index.html */
   .home {
     margin-top: 12em;
     position: relative;
@@ -63,7 +63,7 @@ body {
     position: absolute;
     font-size: 80px;
     color: #74B2B0;
-    margin-left: 35px;
+    margin-left: 40px;
     margin-top: 45px;
   }
 
