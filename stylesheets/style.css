@@ -1,0 +1,110 @@
+body {
+  font-family: "Montserrat",sans-serif;
+}
+
+@media screen and (min-width: 1280px) {
+  /* Navigation */
+  .navbar {
+    margin-top: 15px;
+    top: 0;
+    left: 0;
+    width: 100%;
+  }
+
+  .navbar > .container {
+    justify-content: center !important;
+  }
+
+  .navbar-link {
+    white-space: nowrap;
+    font-family: 'Montserrat-medium', sans-serif;
+    font-size: 16px;
+    width: 100%;
+    font-weight: 500;
+    align-self: center;
+    text-align: center;
+    cursor: pointer;
+    text-decoration: none;
+    text-transform: uppercase;
+  }
+
+  .navbar-link:hover {
+    cursor: pointer;
+    text-decoration: none;
+  }
+
+  .navbar-testimonials, .navbar-about {
+    margin-right: 5vw;
+  }
+
+  .navbar-faqs, .navbar-contact {
+    margin-left: 5vw;
+  }
+
+  /* index.html */
+  .home {
+    margin-top: 12em;
+    position: relative;
+  }
+
+  .home-title {
+    text-align: center;
+    font-size: 50px;
+  }
+
+  .home-center {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 30px;
+  }
+
+  .home-values {
+    position: absolute;
+    font-size: 80px;
+    color: #74B2B0;
+    margin-left: 40px;
+    margin-top: 45px;
+  }
+
+  .home-text {
+    margin-top: 15px;
+    font-size: 36px;
+    color: #74B2B0;
+  }
+
+  .home-days {
+    margin-left: 45px
+  }
+
+  .home-hours {
+    margin-left: 40px
+  }
+
+  .home-minutes {
+    margin-left: 22px;
+  }
+
+  .home-seconds {
+    margin-left: 30px;
+  }
+
+  .home-button {
+    margin-top: 45px;
+    display: flex;
+    justify-content: center;
+  }
+
+  .home-apply-now {
+    background-color: #74B2B0;
+    color: white;
+    font-size: 24px;
+  }
+
+
+
+
+
+
+
+}
