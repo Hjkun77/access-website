@@ -1,3 +1,4 @@
+
 body {
   font-family: "Montserrat",sans-serif;
 }
@@ -101,7 +102,21 @@ body {
     font-size: 24px;
   }
 
+  /* About Us */
+  .about {
+    margin-top: 12em;
+    position: relative;
+  }
 
+  .about-access-title {
+    font-style: bold;
+    font-size: 72px;
+    font-weight: 2500;
+  }
+
+  .about-access {
+    margin-top: 5em;
+  }
 
 
 
