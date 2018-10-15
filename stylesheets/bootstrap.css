@@ -2099,22 +2099,19 @@ input[type="button"].btn-block {
   margin-left: 0; }
 
 .dropdown-menu {
-  position: absolute;
   top: 100%;
-  left: 0;
   z-index: 1000;
   display: none;
-  float: left;
   min-width: 10rem;
-  padding: 0.5rem 0;
-  margin: 0.125rem 0 0;
+  padding: 2rem;
+  margin: auto;
+  margin-left: 5px;
   font-size: 1rem;
   color: #212529;
-  text-align: left;
+  text-align: center;
   list-style: none;
   background-color: #fff;
   background-clip: padding-box;
-  border: 1px solid rgba(0, 0, 0, 0.15);
   border-radius: 0.25rem; }
 
 .dropdown-menu-right {
@@ -2138,6 +2135,10 @@ input[type="button"].btn-block {
   border-right: 0.3em solid transparent;
   border-bottom: 0.3em solid;
   border-left: 0.3em solid transparent; }
+
+  .dropdown-toggle:after {
+    display: none;
+  }
 
 .dropup .dropdown-toggle:empty::after {
   margin-left: 0; }
@@ -2235,8 +2236,9 @@ input[type="button"].btn-block {
     color: #6c757d;
     background-color: transparent; }
 
-.dropdown-menu.show {
-  display: block; }
+  .dropdown-menu.show {
+    display: block; }
+
 
 .dropdown-header {
   display: block;

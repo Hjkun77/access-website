@@ -45,6 +45,34 @@ body {
     margin-left: 5vw;
   }
 
+  .dropdown-menu {
+    border-radius: 0;
+  }
+
+  .dropdown-menu a {
+    color: #212529;
+    font-weight: bold;
+    text-decoration: none;
+    text-transform: uppercase;
+  }
+
+  .dropdown-menu li {
+    margin-bottom: 2rem;
+  }
+
+  .about-dropdown li:last-of-type {
+    margin-bottom: 0.5rem;
+  }
+
+  .about-dropdown {
+    margin-left: -3.5rem;
+  }
+
+  .faq-dropdown li {
+    margin-bottom: 0;
+  }
+
+
   /* Home */
   .home {
     margin-top: 12em;
