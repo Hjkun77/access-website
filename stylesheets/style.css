@@ -17,13 +17,15 @@ body {
 
   .navbar-link {
     white-space: nowrap;
-    font-size: 20px;
+    font-family: 'Montserrat-medium', sans-serif;
+    font-size: 16px;
     width: 100%;
     font-weight: 500;
     align-self: center;
     text-align: center;
     cursor: pointer;
     text-decoration: none;
+    text-transform: uppercase;
   }
 
   .navbar-link:hover {
@@ -41,7 +43,7 @@ body {
 
   /* Home */
   .home {
-    margin-top: 13.5em;
+    margin-top: 12em;
     position: relative;
   }
 
@@ -52,12 +54,9 @@ body {
 
   .home-center {
     display: flex;
+    flex-direction: row;
     justify-content: center;
     margin-top: 30px;
-  }
-
-  .col-md-3 {
-    flex: 0 0 20% !important;
   }
 
   .home-values {
