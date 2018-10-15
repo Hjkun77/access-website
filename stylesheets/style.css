@@ -1,9 +1,9 @@
-<<<<<<< HEAD
-=======
-
->>>>>>> 59b89d97e16d20cb444a9aff6f62283c426698f4
 body {
   font-family: "Montserrat",sans-serif;
+}
+
+.home-center {
+  text-align: center;
 }
 
 @media screen and (min-width: 1280px) {
@@ -16,15 +16,15 @@ body {
   }
 
   .navbar > .container {
-    justify-content: center !important;
+    justify-content: center;
   }
 
   .navbar-link {
     white-space: nowrap;
-    font-family: 'Montserrat-medium', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-size: 16px;
     width: 100%;
-    font-weight: 500;
+    font-weight: bold;
     align-self: center;
     text-align: center;
     cursor: pointer;
@@ -45,7 +45,7 @@ body {
     margin-left: 5vw;
   }
 
-  /* index.html */
+  /* Home */
   .home {
     margin-top: 12em;
     position: relative;
@@ -57,9 +57,6 @@ body {
   }
 
   .home-center {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
     margin-top: 30px;
   }
 
@@ -67,7 +64,7 @@ body {
     position: absolute;
     font-size: 80px;
     color: #74B2B0;
-    margin-left: 40px;
+    margin-left: 85px;
     margin-top: 45px;
   }
 
@@ -75,22 +72,6 @@ body {
     margin-top: 15px;
     font-size: 36px;
     color: #74B2B0;
-  }
-
-  .home-days {
-    margin-left: 45px
-  }
-
-  .home-hours {
-    margin-left: 40px
-  }
-
-  .home-minutes {
-    margin-left: 22px;
-  }
-
-  .home-seconds {
-    margin-left: 30px;
   }
 
   .home-button {
@@ -103,21 +84,5 @@ body {
     background-color: #74B2B0;
     color: white;
     font-size: 24px;
-  }
-
-  /* About Us */
-  .about {
-    margin-top: 12em;
-    position: relative;
-  }
-
-  .about-access-title {
-    font-style: bold;
-    font-size: 72px;
-    font-weight: 2500;
-  }
-
-  .about-access {
-    margin-top: 5em;
   }
 }
