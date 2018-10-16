@@ -9,10 +9,10 @@ body {
 @media screen and (min-width: 1280px) {
   /* Navigation */
   .navbar {
-    margin-top: 15px;
     top: 0;
     left: 0;
     width: 100%;
+    background: white;
   }
 
   .navbar > .container {
@@ -22,7 +22,7 @@ body {
   .navbar-link {
     white-space: nowrap;
     font-family: 'Montserrat', sans-serif;
-    font-size: 16px;
+    font-size: 12px;
     width: 100px;
     font-weight: bold;
     align-self: center;
@@ -38,11 +38,11 @@ body {
   }
 
   .navbar-testimonials, .navbar-about {
-    margin-right: 5vw;
+    margin-right: 7.5vw;
   }
 
   .navbar-faqs, .navbar-contact {
-    margin-left: 5vw;
+    margin-left: 7.5vw;
   }
 
   .dropdown-menu {
@@ -50,10 +50,11 @@ body {
   }
 
   .dropdown-menu a {
+    font-size: 12px;
     color: #212529;
     font-weight: bold;
     text-decoration: none;
-    text-transform: uppercase;
+    text-transform: capitalize;
   }
 
   .dropdown-menu li {
