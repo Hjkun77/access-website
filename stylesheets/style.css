@@ -163,27 +163,27 @@ body {
     border-color: #3f403f;
   }
 
-   .parallelogram-grey-section {
+  .faq-parallelogram-grey-section {
     width: 60%;
     z-index: -1;
   }
 
-  .parallelogram-grey-content {
+  .faq-parallelogram-grey-content {
     font-size: 15px;
     position: relative;
-    left: 40px;
+    left: 10%;
     top: 50%;
     width: 60%;
     bottom: 400px;
   }
 
-  .parallelogram-blue-section {
+  .faq-parallelogram-blue-section {
     width: 20%;
     position: relative;
     right: 10%;
   }
 
-  .parallelogram-blue-text {
+  .faq-parallelogram-blue-text {
     font-weight: bold;
     color: white;
     font-size: 35px;
@@ -206,7 +206,7 @@ body {
     margin: auto;
   }
 
-  .loading-dots {
+  .faq-loading-dots {
     width: 70px;
     display: block;
     margin: auto;
