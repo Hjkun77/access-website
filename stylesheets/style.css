@@ -9,10 +9,10 @@ body {
 @media screen and (min-width: 1280px) {
   /* Navigation */
   .navbar {
-    margin-top: 15px;
     top: 0;
     left: 0;
     width: 100%;
+    background: white;
   }
 
   .navbar > .container {
@@ -22,8 +22,8 @@ body {
   .navbar-link {
     white-space: nowrap;
     font-family: 'Montserrat', sans-serif;
-    font-size: 16px;
-    width: 100%;
+    font-size: 12px;
+    width: 100px;
     font-weight: bold;
     align-self: center;
     text-align: center;
@@ -38,11 +38,11 @@ body {
   }
 
   .navbar-testimonials, .navbar-about {
-    margin-right: 5vw;
+    margin-right: 7.5vw;
   }
 
   .navbar-faqs, .navbar-contact {
-    margin-left: 5vw;
+    margin-left: 7.5vw;
   }
 
   .dropdown-menu {
@@ -50,10 +50,11 @@ body {
   }
 
   .dropdown-menu a {
+    font-size: 12px;
     color: #212529;
     font-weight: bold;
     text-decoration: none;
-    text-transform: uppercase;
+    text-transform: capitalize;
   }
 
   .dropdown-menu li {
@@ -112,5 +113,43 @@ body {
     background-color: #74B2B0;
     color: white;
     font-size: 24px;
+  }
+
+  /* About */
+  .about {
+    left: 0;
+    top: 0;
+    overflow-y: hidden;
+  }
+
+  .about-image {
+    width: 100%;
+    z-index: 10;
+  }
+
+  /* Contact Us */
+  .contact-us {
+    margin-left: 10vw;
+    width: 100%;
+    margin-right: 10vw;
+    margin-top: 12vw;
+    display: flex;
+    align-items: center;
+  }
+
+  .contact-us-title {
+    font-size: 30px;
+    width: 100%;
+  }
+
+  .contact-line {
+    padding-left: 5vw;
+    border-left: 2px solid #CECECE;
+  }
+  .get-in-touch {
+    text-transform: uppercase;
+    font-size: 16px;
+    color: #5EA7A5;
+    text-align: center;
   }
 }
