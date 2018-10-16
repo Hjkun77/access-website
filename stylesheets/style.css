@@ -113,4 +113,17 @@ body {
     color: white;
     font-size: 24px;
   }
+
+  /* About */
+  .about {
+    left: 0;
+    top: 0;
+    overflow-y: hidden;
+  }
+
+  .about-image {
+    width: 100%;
+    z-index: 10;
+  }
+
 }
