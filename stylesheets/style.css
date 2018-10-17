@@ -129,27 +129,58 @@ body {
 
   /* Contact Us */
   .contact-us {
-    margin-left: 10vw;
-    width: 100%;
-    margin-right: 10vw;
-    margin-top: 12vw;
+    margin-left: 12vw;
+    width: 90%;
+    margin-top: 11vw;
     display: flex;
     align-items: center;
+    position: fixed;
   }
 
   .contact-us-title {
     font-size: 30px;
     width: 100%;
+    margin-bottom: 30px;
   }
 
+
   .contact-line {
-    padding-left: 5vw;
+    padding-left: 3vw;
     border-left: 2px solid #CECECE;
   }
+
   .get-in-touch {
     text-transform: uppercase;
-    font-size: 16px;
+    font-size: 20px;
     color: #5EA7A5;
     text-align: center;
+  }
+
+  .contact-input-name, .contact-input-email, .contact-input-message {
+    background-color: #f7f7f7;
+    border-color: transparent;
+    border-radius: 0.2em;
+    width: 100%;
+    height: 60px;
+    color: #989696;
+    margin-bottom: 15px;
+    margin-top: 15px;
+  }
+
+  .contact-input-message {
+    padding-bottom: 250px;
+    padding-top: 30px;
+  }
+
+  .contact-container {
+    display: flex;
+    justify-content: center;
+  }
+
+  .contact-button {
+    background-color: #74B2B0;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
   }
 }
