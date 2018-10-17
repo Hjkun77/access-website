@@ -155,7 +155,7 @@ body {
     color: #5EA7A5;
     text-align: center;
   }
-  
+
   .contact-input-name, .contact-input-email, .contact-input-message {
     background-color: #f7f7f7;
     border-color: transparent;
@@ -182,9 +182,10 @@ body {
     color: white;
     font-size: 20px;
     font-weight: bold;
-    
-  
+  }
+
   /*FAQs*/
+
   .faq-item {
     display: flex;
     flex-direction: row;
@@ -242,6 +243,29 @@ body {
     width: 70px;
     display: block;
     margin: auto;
-   
   }
+
+  /* Testimonials */
+  .testimonials {
+    width: 960px;
+    height: 640px;
+  }
+
+  .item {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .testimonial-image {
+    width: 480px;
+    height: 640px;
+    background-color: #CECECE;
+  }
+
+  .testimonial-text {
+    width: 480px;
+    height: 640px;
+    background-color: #74B2B0;
+  }
+
 }
