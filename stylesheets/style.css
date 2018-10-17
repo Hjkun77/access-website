@@ -155,7 +155,7 @@ body {
     color: #5EA7A5;
     text-align: center;
   }
-
+  
   .contact-input-name, .contact-input-email, .contact-input-message {
     background-color: #f7f7f7;
     border-color: transparent;
@@ -182,5 +182,66 @@ body {
     color: white;
     font-size: 20px;
     font-weight: bold;
+    
+  
+  /*FAQs*/
+  .faq-item {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .faq-line{
+    border-color: #3f403f;
+  }
+
+  .faq-parallelogram-grey-section {
+    width: 60%;
+    z-index: -1;
+  }
+
+  .faq-parallelogram-grey-content {
+    font-size: 15px;
+    position: relative;
+    left: 10%;
+    top: 50%;
+    width: 60%;
+    bottom: 400px;
+  }
+
+  .faq-parallelogram-blue-section {
+    width: 20%;
+    position: relative;
+    right: 10%;
+  }
+
+  .faq-parallelogram-blue-text {
+    font-weight: bold;
+    color: white;
+    font-size: 35px;
+    position: relative;
+    bottom: 220px;
+    left: 30%;
+  }
+
+  .faq-question {
+    font-size: 17px;
+    font-weight: bold;
+    position: relative;
+    right: 5%;
+  }
+
+  .faq-question-text {
+    width: 80%;
+    text-align: center;
+    padding: 5px;
+    margin: auto;
+  }
+
+  .faq-loading-dots {
+    width: 70px;
+    display: block;
+    margin: auto;
+   
   }
 }
