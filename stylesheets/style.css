@@ -124,7 +124,15 @@ body {
 
   .about-image {
     width: 100%;
-    z-index: 10;
+  }
+
+  .about-partners, .about-timeline, .about-week {
+    width: 98.5vw;
+    margin-bottom: 30px;
+  }
+
+  .about-week {
+    margin-bottom: 0px;
   }
 
   /* Contact Us */
