@@ -61,6 +61,10 @@ body {
     margin-bottom: 2rem;
   }
 
+  .guidelines {
+    margin-left: 4vw;
+  }
+
   .about-dropdown li:last-of-type {
     margin-bottom: 0.5rem;
   }
