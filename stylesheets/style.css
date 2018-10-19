@@ -61,6 +61,10 @@ body {
     margin-bottom: 2rem;
   }
 
+  .guidelines {
+    margin-left: 4vw;
+  }
+
   .about-dropdown li:last-of-type {
     margin-bottom: 0.5rem;
   }
@@ -124,32 +128,162 @@ body {
 
   .about-image {
     width: 100%;
-    z-index: 10;
+  }
+
+  .about-partners, .about-timeline, .about-week {
+    width: 98.5vw;
+    margin-bottom: 30px;
+  }
+
+  .about-week {
+    margin-bottom: 0px;
   }
 
   /* Contact Us */
   .contact-us {
-    margin-left: 10vw;
-    width: 100%;
-    margin-right: 10vw;
-    margin-top: 12vw;
+    margin-left: 7.5em;
+    width: 85%;
+    margin-top: 9em;
     display: flex;
     align-items: center;
+    position: fixed;
   }
 
   .contact-us-title {
-    font-size: 30px;
+    font-size: 28px;
     width: 100%;
+    margin-bottom: 30px;
   }
 
+
   .contact-line {
-    padding-left: 5vw;
+    padding-left: 3vw;
     border-left: 2px solid #CECECE;
   }
+
+  .contact-details {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 15px;
+  }
+
   .get-in-touch {
     text-transform: uppercase;
-    font-size: 16px;
+    font-size: 18px;
     color: #5EA7A5;
     text-align: center;
   }
+
+  .contact-input-name, .contact-input-email, .contact-input-message {
+    background-color: #f7f7f7;
+    border-color: transparent;
+    border-radius: 0.2em;
+    width: 100%;
+    height: 40px;
+    color: #989696;
+    margin-bottom: 15px;
+    margin-top: 15px;
+  }
+
+  .contact-input-message {
+    padding-bottom: 200px;
+    padding-top: 30px;
+  }
+
+  .contact-container {
+    display: flex;
+    justify-content: center;
+  }
+
+  .contact-button {
+    background-color: #74B2B0;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+  }
+
+  /*FAQs*/
+  .faq-item {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .faq-line{
+    border-color: #3f403f;
+  }
+
+  .faq-parallelogram-grey-section {
+    width: 60%;
+    z-index: -1;
+  }
+
+  .faq-parallelogram-grey-content {
+    font-size: 15px;
+    position: relative;
+    left: 10%;
+    top: 50%;
+    width: 60%;
+    bottom: 400px;
+  }
+
+  .faq-parallelogram-blue-section {
+    width: 20%;
+    position: relative;
+    right: 10%;
+  }
+
+  .faq-parallelogram-blue-text {
+    font-weight: bold;
+    color: white;
+    font-size: 35px;
+    position: relative;
+    bottom: 220px;
+    left: 30%;
+  }
+
+  .faq-question {
+    font-size: 17px;
+    font-weight: bold;
+    position: relative;
+    right: 5%;
+  }
+
+  .faq-question-text {
+    width: 80%;
+    text-align: center;
+    padding: 5px;
+    margin: auto;
+  }
+
+  .faq-loading-dots {
+    width: 70px;
+    display: block;
+    margin: auto;
+  }
+
+  /* Testimonials */
+  .testimonials {
+    width: 960px;
+    height: 640px;
+  }
+
+  .item {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .testimonial-image {
+    width: 480px;
+    height: 640px;
+    background-color: #CECECE;
+  }
+
+  .testimonial-text {
+    width: 480px;
+    height: 640px;
+    background-color: #74B2B0;
+  }
+
 }
