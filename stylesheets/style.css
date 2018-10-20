@@ -80,7 +80,11 @@ body {
 
   /* Home */
   .home {
-    margin-top: 12em;
+    left: 0;
+    top: 9em;
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
     position: relative;
   }
 
@@ -123,7 +127,6 @@ body {
   .about {
     left: 0;
     top: 0;
-    overflow-y: hidden;
   }
 
   .about-image {
@@ -141,10 +144,11 @@ body {
 
   /* Contact Us */
   .contact-us {
-    margin-left: 7.5em;
-    width: 85%;
-    margin-top: 9em;
+    top: 6em;
+    left: 0;
+    width: 100vw;
     display: flex;
+    justify-content: center;
     align-items: center;
     position: fixed;
   }
@@ -154,7 +158,6 @@ body {
     width: 100%;
     margin-bottom: 30px;
   }
-
 
   .contact-line {
     padding-left: 3vw;
@@ -207,84 +210,157 @@ body {
 
   .faq-item {
     display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+  }
+
+  .faq-bg {
+    transform-origin: left;
+  }
+
+  .faq-shapes{
+    width: 95%;
+  }
+
+  .faq-section  {
+    position: relative;
+    z-index: 1;
+    bottom: 56vh;
+    margin-left: 7.5em;
+    margin-right: 3em;
+  }
+
+  .faq-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .faq-line {
+    border-color: #3f403f;
+  }
+
+  .faq-answer {
+    font-size: 15px;
+    width: 40vw;
+    height: 120px;
+  }
+
+  .faq-question{
+    width: 20vw;
+    font-size: 17px;
+    font-weight: bold;
+  }
+
+  .faq-question-text{
+    text-align: center;
+    margin: auto auto 5px auto;
+  }
+
+  .faq-dots-container {
+    width: 75%;
+    display: flex;
+    justify-content: center;
+  }
+
+  .faq-dots-set {
+    width: 10%;
+    display: grid;
+    grid-template-columns: auto auto auto;
+  }
+
+  .faq-dot{
+    cursor: pointer;
+    padding: 5px;
+    width: 25px;
+  }
+
+  /* Testimonials */
+
+  .testimonials{
+    display: flex;
+    align-items: center;
+  }
+
+  .testimonials-container{
+    height: 80%; /*does not take effect, i don't know why*/
+    width: 100%;
+    display: flex;
     flex-direction: row;
     align-items: center;
   }
 
-  .faq-line{
-    border-color: #3f403f;
-  }
-
-  .faq-parallelogram-grey-section {
-    width: 60%;
-    z-index: -1;
-  }
-
-  .faq-parallelogram-grey-content {
-    font-size: 15px;
-    position: relative;
-    left: 10%;
-    top: 50%;
-    width: 60%;
-    bottom: 400px;
-  }
-
-  .faq-parallelogram-blue-section {
-    width: 20%;
-    position: relative;
-    right: 10%;
-  }
-
-  .faq-parallelogram-blue-text {
-    font-weight: bold;
-    color: white;
-    font-size: 35px;
-    position: relative;
-    bottom: 220px;
-    left: 30%;
-  }
-
-  .faq-question {
-    font-size: 17px;
-    font-weight: bold;
-    position: relative;
-    right: 5%;
-  }
-
-  .faq-question-text {
-    width: 80%;
-    text-align: center;
-    padding: 5px;
-    margin: auto;
-  }
-
-  .faq-loading-dots {
-    width: 70px;
-    display: block;
-    margin: auto;
-  }
-
-  /* Testimonials */
-  .testimonials {
-    width: 960px;
-    height: 640px;
-  }
-
-  .item {
-    display: flex;
-    flex-direction: row;
-  }
-
   .testimonial-image {
-    width: 480px;
-    height: 640px;
+    width: 420px;
+    height: 433px;
     background-color: #CECECE;
   }
 
-  .testimonial-text {
-    width: 480px;
-    height: 640px;
+  .testimonials-box{
     background-color: #74B2B0;
+    height: 100%;
+    width: 30%;
   }
+
+  .testimonials-textbox{
+    padding: 15%;
+  }
+
+  .testimonials-quote{
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    font-style: italic;
+  }
+
+  .testimonials-text{
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    font-style: italic;
+  }
+
+  .testimonials-content-controls{
+    background-color: white;
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    padding: 25px 50px 25px 50px;
+    position: relative;
+    left: 50%;
+  }
+
+  .testimonials-content-controls-right{
+    position: relative;
+    left: 80%;
+  }
+
+  .testimonials-dots-set{
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+  }
+
+  .testimonials-dot{
+    padding: 5px;
+    width: 25px;
+    height: 25px;
+  }
+
+  .testimonials-title{
+    width: 12%;
+    display: flex;
+    align-items: center;
+  }
+
+  .testimonials-vertical{
+    font-size: 30px;
+    font-weight: bolder;
+    transform: rotate(270deg);
+    text-transform: uppercase;
+  }
+
 
 }
