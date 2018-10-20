@@ -224,6 +224,7 @@ body {
     flex: 3;
   }
 
+
   .faq-content{
     display: flex;
     flex-direction: row;
@@ -231,7 +232,7 @@ body {
     bottom: 400px;
   }
 
-  .faq-line{
+  .faq-line {
     border-color: #3f403f;
   }
 
