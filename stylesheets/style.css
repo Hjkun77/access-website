@@ -206,56 +206,60 @@ body {
   /*FAQs*/
   .faq-item {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     align-items: center;
+    position: relative;
+  }
+
+  .faq-bg {
+    transform-origin: left;
+  }
+
+  .faq-shapes{
+    width: 75%;
+    flex: 3;
+  }
+
+  .faq-content{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    bottom: 400px;
   }
 
   .faq-line{
     border-color: #3f403f;
   }
 
-  .faq-parallelogram-grey-section {
-    width: 60%;
-    z-index: -1;
-  }
-
-  .faq-parallelogram-grey-content {
+  .faq-parallelogram-grey-content{
+    width: 50%;
+    padding: 0 7% 0 7%;
     font-size: 15px;
-    position: relative;
-    left: 10%;
-    top: 50%;
-    width: 60%;
-    bottom: 400px;
   }
 
-  .faq-parallelogram-blue-section {
+  .faq-parallelogram-blue-section{
     width: 20%;
-    position: relative;
-    right: 10%;
-  }
-
-  .faq-parallelogram-blue-text {
     font-weight: bold;
     color: white;
     font-size: 35px;
+    text-align: center;
     position: relative;
-    bottom: 220px;
-    left: 30%;
+    top: 50px;
   }
 
-  .faq-question {
+  .faq-question{
+    width: 25%;
     font-size: 17px;
     font-weight: bold;
-    position: relative;
-    right: 5%;
-  }
-
-  .faq-question-text {
-    width: 80%;
-    text-align: center;
-    padding: 5px;
     margin: auto;
   }
+
+  .faq-question-text{
+    text-align: center;
+    width: 60%;
+    margin: auto auto 5px auto;
+  }
+
 
   .faq-loading-dots {
     width: 70px;
