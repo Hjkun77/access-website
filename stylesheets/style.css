@@ -80,7 +80,11 @@ body {
 
   /* Home */
   .home {
-    margin-top: 9em;
+    left: 0;
+    top: 9em;
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
     position: relative;
   }
 
