@@ -141,9 +141,9 @@ body {
 
   /* Contact Us */
   .contact-us {
-    margin-left: 7.5em;
+    margin-left: 6em;
     width: 85%;
-    margin-top: 9em;
+    margin-top: 6em;
     display: flex;
     align-items: center;
     position: fixed;
@@ -154,7 +154,6 @@ body {
     width: 100%;
     margin-bottom: 30px;
   }
-
 
   .contact-line {
     padding-left: 3vw;
