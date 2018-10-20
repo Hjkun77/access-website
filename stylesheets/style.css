@@ -290,15 +290,16 @@ body {
     align-items: center;
   }
 
-  .testimonials-image{
-    height: 100%;
+  .testimonial-image {
+    width: 420px;
+    height: 433px;
+    background-color: #CECECE;
   }
 
   .testimonials-box{
     background-color: #74B2B0;
     height: 100%;
     width: 30%;
-
   }
 
   .testimonials-textbox{
