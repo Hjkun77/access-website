@@ -264,6 +264,11 @@ body {
     margin: auto auto 5px auto;
   }
 
+  .faq-dots-container {
+    width: 85%;
+    display: flex;
+    justify-content: center;
+  }
 
   .faq-dots-set {
     width: 10%;
