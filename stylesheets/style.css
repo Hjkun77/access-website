@@ -6,7 +6,7 @@ body {
   text-align: center;
 }
 
-@media screen and (min-width: 1280px) {
+@media screen and (min-width: 768px) {
   /* Navigation */
   .navbar {
     top: 0;
@@ -147,7 +147,10 @@ body {
   .contact-us {
     top: 6em;
     left: 0;
-    width: 100vw;
+    right: 0;
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -206,6 +209,10 @@ body {
     color: white;
     font-size: 18px;
     font-weight: bold;
+  }
+
+  .icon {
+    margin-left: 45px;
   }
 
   /*FAQs*/
@@ -295,7 +302,7 @@ body {
 
   .testimonial-image {
     width: 420px;
-    height: 433px;
+    height: 27.7em;
     background-color: #CECECE;
   }
 
