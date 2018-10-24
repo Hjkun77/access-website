@@ -146,8 +146,9 @@ body {
   /* Contact Us */
   .contact-us {
     top: 6em;
-    left: 0;
-    width: 100vw;
+    left: 60px;
+    right: 60px;
+    width: 90%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -206,6 +207,10 @@ body {
     color: white;
     font-size: 18px;
     font-weight: bold;
+  }
+
+  .icon {
+    margin-left: 45px;
   }
 
   /*FAQs*/
