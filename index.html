@@ -66,7 +66,12 @@
         <button class="btn home-apply-now">Apply Now</button>
       </div>
     </div>
-
+ <script>
+    if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
+      // is mobile..
+      document.body.innerHTML = '<h1>Hi, No phones please.</h1>'
+    }
+  </script>
     <script src="./scripts/script.js"></script>
   </body>
 </html>
