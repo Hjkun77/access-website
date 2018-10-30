@@ -1,10 +1,8 @@
 body {
   font-family: "Montserrat",sans-serif;
+  overflow-y: scroll;
 }
 
-.home-center {
-  text-align: center;
-}
 
 @media screen and (min-width: 768px) {
   /* Navigation */
@@ -79,37 +77,37 @@ body {
 
 
   /* Home */
-  .home {
-    left: 0;
-    top: 9em;
-    width: 100vw;
-    justify-content: center;
-    align-items: center;
-    position: relative;
-  }
-
   .home-title {
+    margin-top: 2.9em;
     text-align: center;
     font-size: 50px;
+    margin-bottom: 30px;
   }
 
-  .home-center {
-    margin-top: 30px;
-
+  .circle-container {
+    margin-left: 200px;
+    margin-right: 200px;
+    display: grid;
+    justify-content: space-around;
+    grid-template-columns: auto auto auto auto;
   }
 
   .home-values {
     position: absolute;
     font-size: 80px;
     color: #74B2B0;
-    margin-left: 91px;
-    margin-top: 40px;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    margin-top: 42px;
+    margin-left: 42px;
   }
 
   .home-text {
     margin-top: 15px;
     font-size: 36px;
     color: #74B2B0;
+    text-align: center;
   }
 
   .home-button {
