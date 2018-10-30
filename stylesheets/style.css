@@ -276,7 +276,7 @@ body {
   .faq-dots-set {
     width: 10%;
     display: grid;
-    grid-template-columns: auto auto auto;
+    grid-template-columns: auto auto auto auto;
   }
 
   .faq-dot{
