@@ -331,12 +331,25 @@ body {
   }
 
   /* Testimonials */
-  .testimonials-section {
-    position: relative;
+  .testimonial-slider {
     z-index: 9999;
+    position: relative;
+  }
+
+  .testimonials-container {
+    position: fixed;
+    margin-top: 7.5vw;
     display: grid;
     grid-template-columns: 30em 30em;
     grid-template-rows: 60px 300px 60px;
+  }
+
+  .testimonials-section {
+    position: relative;
+    margin-top: 7.5vw;
+    display: grid;
+    grid-template-columns: 30em 30em;
+    grid-template-rows: 60px 300px;
   }
 
   .testimonial-image {
@@ -367,53 +380,45 @@ body {
     overflow-y: scroll;
   }
 
-  .testimonials{
-    display: flex;
-    align-items: center;
-    position: relative;
-  }
-
-  .testimonials-container{
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-  }
-
   .testimonial-image-container {
-    width: 28em;
-    height: 28em;
+    grid-column: 1/1;
+    grid-row: 1/4;
+    display: flex;
     background-color: #CECECE;
   }
 
   .testimonials-box{
+    grid-column: 2/2;
+    grid-row: 1/3;
     background-color: #74B2B0;
-    height: 30em;
-    width: 30em;
   }
 
   .testimonials-content-controls{
     background-color: white;
-    width: 50%;
-    display: flex;
-    flex-direction: row;
-    margin-top: 13.7vw;
-    position: relative;
-    left: 50%;
+    display: grid;
+    grid-template-columns: 15em 7.5em 7.5em;
+    grid-column: 2/2;
+    grid-row: 3/3;
+  }
+
+  .testimonials-content {
+    background-color: #74B2B0;
+    width: 100%;
+    height: 100%;
   }
 
   .testimonials-content-controls-right{
-    padding: 30px 50px 30px 50px;
-    position: relative;
-    cursor: pointer;
+    text-align: center;
+    align-self: center;
     font-weight: bold;
+    cursor: pointer
   }
 
   .testimonials-content-controls-left {
-    padding: 30px 50px 30px 50px;
-    position: relative;
-    cursor: pointer;
+    text-align: center;
+    align-self: center;
     font-weight: bold;
+    cursor: pointer
   }
 
   .testimonials-dots-set{
