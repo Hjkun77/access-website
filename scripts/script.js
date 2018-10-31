@@ -23,10 +23,16 @@ if (days < 10) {
   days = "0" + days;
 }
 
-document.getElementById("days").innerHTML = days;
-document.getElementById("hours").innerHTML = hours;
-document.getElementById("minutes").innerHTML = minutes;
-document.getElementById("seconds").innerHTML = seconds;
+const daysEl = document.getElementById("days")
+const hoursEl = document.getElementById("hours")
+const minsEl = document.getElementById("minutes")
+const secondsEl = document.getElementById('seconds')
+
+
+daysEl && (daysEl.innerHTML = days)
+hoursEl && (hoursEl.innerHTML = hours)
+minsEl && (minsEl.innerHTML = minutes)
+secondsEl && (secondsEl.innerHTML = seconds)
 
 if (t < 0) {
         clearInterval(x);
