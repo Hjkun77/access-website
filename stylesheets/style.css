@@ -1,10 +1,10 @@
 body {
-  font-family: "Montserrat",sans-serif;
+  font-family: "Montserrat", sans-serif;
   overflow-y: scroll;
 }
 
-
 @media screen and (min-width: 1024px) {
+
   /* Navigation */
   .navbar {
     top: 0;
@@ -32,9 +32,9 @@ body {
   .navbar-logo {
     width: 75px;
     position: fixed;
-    z-index: 9999;
+    z-index: 99999;
     background: white !important;
-    padding: 20px 60px 20px 60px;
+    padding: 20px 0 20px 0px;
     justify-content: center;
     display: flex;
   }
@@ -98,10 +98,9 @@ body {
     margin-left: 4vw;
   }
 
-
   /* Home */
   .home-title {
-    margin-top: 2em;
+    margin-top: 3em;
     text-align: center;
     font-size: 50px;
     margin-bottom: 30px;
@@ -172,8 +171,7 @@ body {
   }
 
   .about-partners, .about-timeline, .about-week {
-    width: 98.5vw;
-    margin-bottom: 30px;
+    width: 98vw;
   }
 
   .about-week {
@@ -220,7 +218,6 @@ body {
     text-align: center;
   }
 
-
   .contact-input-name, .contact-input-email, .contact-input-message {
     background-color: #f7f7f7;
     border-color: transparent;
@@ -261,7 +258,6 @@ body {
   }
 
   /*FAQs*/
-
   .faq-item {
     display: flex;
     flex-direction: column;
@@ -273,11 +269,11 @@ body {
     transform-origin: left;
   }
 
-  .faq-shapes{
+  .faq-shapes {
     width: 95%;
   }
 
-  .faq-section  {
+  .faq-section {
     position: relative;
     z-index: 1;
     bottom: 56vh;
@@ -301,13 +297,13 @@ body {
     height: 120px;
   }
 
-  .faq-question{
+  .faq-question {
     width: 20vw;
     font-size: 17px;
     font-weight: bold;
   }
 
-  .faq-question-text{
+  .faq-question-text {
     text-align: center;
     margin: auto auto 5px auto;
   }
@@ -324,15 +320,43 @@ body {
     grid-template-columns: auto auto auto auto;
   }
 
-  .faq-dot{
+  .faq-dot {
     cursor: pointer;
     padding: 5px;
     width: 25px;
   }
 
   /* Testimonials */
+  .carousel-fade .carousel-inner .item {
+    opacity: 0;
+    -webkit-transition-property: opacity;
+    -moz-transition-property: opacity;
+    -o-transition-property: opacity;
+    transition-property: opacity;
+  }
+
+  .carousel-fade .carousel-inner .active {
+    opacity: 1;
+  }
+
+  .carousel-fade .carousel-inner .active.left,
+  .carousel-fade .carousel-inner .active.right {
+    left: 0;
+    opacity: 0;
+    z-index: 1;
+  }
+
+  .carousel-fade .carousel-inner .next.left,
+  .carousel-fade .carousel-inner .prev.right {
+    opacity: 1;
+  }
+
+  .carousel-fade .carousel-control {
+    z-index: 2;
+  }
+
   .testimonial-slider {
-    z-index: 9999;
+    z-index: 9;
     position: relative;
   }
 
@@ -349,7 +373,7 @@ body {
     margin-top: 7.5vw;
     display: grid;
     grid-template-columns: 30em 30em;
-    grid-template-rows: 60px 300px;
+    grid-template-rows: 60px 300px 60px;
   }
 
   .testimonial-image {
@@ -359,7 +383,7 @@ body {
     margin: 0 30px 0 30px;
   }
 
-  .testimonials-name{
+  .testimonials-name {
     text-align: center;
     color: black;
     font-size: 32px;
@@ -369,7 +393,7 @@ body {
     grid-row: 1/1
   }
 
-  .testimonials-text{
+  .testimonials-text {
     text-align: center;
     color: black;
     font-size: 14px;
@@ -387,14 +411,16 @@ body {
     background-color: #CECECE;
   }
 
-  .testimonials-box{
+  .testimonials-box {
     grid-column: 2/2;
     grid-row: 1/3;
     background-color: #74B2B0;
   }
 
-  .testimonials-content-controls{
+  .testimonials-content-controls {
     background-color: white;
+    position: relative;
+    z-index: 999999;
     display: grid;
     grid-template-columns: 15em 7.5em 7.5em;
     grid-column: 2/2;
@@ -407,7 +433,7 @@ body {
     height: 100%;
   }
 
-  .testimonials-content-controls-right{
+  .testimonials-content-controls-right {
     text-align: center;
     align-self: center;
     font-weight: bold;
@@ -421,25 +447,25 @@ body {
     cursor: pointer
   }
 
-  .testimonials-dots-set{
+  .testimonials-dots-set {
     display: flex;
     flex-direction: column;
     margin: 10px;
   }
 
-  .testimonials-dot{
+  .testimonials-dot {
     padding: 5px;
     width: 25px;
     height: 25px;
   }
 
-  .testimonials-title{
+  .testimonials-title {
     width: 12%;
     display: flex;
     align-items: center;
   }
 
-  .testimonials-vertical{
+  .testimonials-vertical {
     font-size: 30px;
     font-weight: bolder;
     transform: rotate(270deg);
@@ -461,4 +487,7 @@ body {
     right: -2%;
   }
 
+  footer {
+    height: 60px;
+  }
 }
