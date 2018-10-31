@@ -34,7 +34,8 @@ body {
     position: fixed;
     z-index: 99999;
     background: white !important;
-    padding: 20px 0 20px 0px;
+    border-radius: 500px;
+    padding: 20px 0 10px 0;
     justify-content: center;
     display: flex;
   }
@@ -390,7 +391,8 @@ body {
     font-weight: bold;
     font-style: italic;
     grid-column: 2/2;
-    grid-row: 1/1
+    grid-row: 1/1;
+    margin-top: 12px;
   }
 
   .testimonials-text {
@@ -402,6 +404,8 @@ body {
     grid-column: 2/2;
     grid-row: 2/2;
     overflow-y: scroll;
+    margin-bottom: 0px !important;
+    padding: 0 5px 0 5px;
   }
 
   .testimonial-image-container {
@@ -433,18 +437,20 @@ body {
     height: 100%;
   }
 
-  .testimonials-content-controls-right {
+  .testimonials-content-controls-right, .testimonials-content-controls-left {
     text-align: center;
     align-self: center;
     font-weight: bold;
-    cursor: pointer
+    cursor: pointer;
+    padding: 22px 0 15px 0;
   }
 
-  .testimonials-content-controls-left {
+  .testimonials-content-controls-left:hover, .testimonials-content-controls-right:hover {
     text-align: center;
     align-self: center;
     font-weight: bold;
-    cursor: pointer
+    cursor: pointer;
+    background: rgb(113, 139, 139);
   }
 
   .testimonials-dots-set {

@@ -1,3 +1,4 @@
+
 var deadline = new Date("Jan 6, 2019 11:59:59").getTime();
 var x = setInterval(function() {
 var now = new Date().getTime();
@@ -42,7 +43,6 @@ if (t < 0) {
         document.getElementById("seconds").innerHTML = "00";
     }
 }, 1000);
-
 
 $('.carousel').carousel({
   interval: 5000,
