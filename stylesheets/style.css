@@ -38,6 +38,7 @@ body {
     padding: 20px 0 10px 0;
     justify-content: center;
     display: flex;
+
   }
 
   .navbar-link {
@@ -269,7 +270,7 @@ body {
   .faq-bg {
     transform-origin: left;
   }
-
+  
   .faq-shapes {
     width: 95%;
   }
