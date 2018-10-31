@@ -38,7 +38,6 @@ body {
     padding: 20px 0 10px 0;
     justify-content: center;
     display: flex;
-
   }
 
   .navbar-link {
@@ -123,8 +122,8 @@ body {
     width: 100px;
     height: 100px;
     text-align: center;
-    margin-top: 42px;
-    margin-left: 42px;
+    margin-top: 40px;
+    margin-left: 38px;
   }
 
   .home-text {
@@ -270,7 +269,7 @@ body {
   .faq-bg {
     transform-origin: left;
   }
-  
+
   .faq-shapes {
     width: 95%;
   }
