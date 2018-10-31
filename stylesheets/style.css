@@ -478,6 +478,21 @@ body {
     text-transform: uppercase;
   }
 
+  .arrow-boi {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: #212529;
+  }
+
+  .left-arrow-boi {
+    left: -4%;
+  }
+
+  .right-arrow-boi {
+    right: -2%;
+  }
+
   footer {
     height: 60px;
   }
