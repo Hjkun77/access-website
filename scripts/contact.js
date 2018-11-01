@@ -1,6 +1,6 @@
 const sheetURL = 'https://script.google.com/macros/s/AKfycbwZOVwfLxmd8oNRui0JrlQRPzhRSUc8uIaz9e0jROwlxNfX4biN/exec'
 
-const form = $('#contact-form')
+const form = $('#contactForm')
 
 $.fn.serializeObject = function()
 {
@@ -29,6 +29,7 @@ $('.contact-button').on('click', function(e) {
     data:  form.serializeObject(),
     success: function() {
       form.trigger('reset')
+      alert("Thank you very much for inquiring.")
     }
   })
 })
