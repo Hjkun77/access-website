@@ -1,8 +1,6 @@
-// google sheet
-// https://docs.google.com/spreadsheets/d/1fNq4jiIlJeEhN3NsnSAM8CEPUzEpxGHHOyl1IJpHHUo/edit#gid=0
-const sheetURL = 'https://script.google.com/macros/s/AKfycbx_JApnE0GiZ3cWIkQWHOsrmg0oeeeJ-ImHZ2xxUGe-QdFje1bT/exec'
+const sheetURL = 'https://script.google.com/macros/s/AKfycbwZOVwfLxmd8oNRui0JrlQRPzhRSUc8uIaz9e0jROwlxNfX4biN/exec'
 
-const form = $('.form')
+const form = $('#contact-form')
 
 $.fn.serializeObject = function()
 {
