@@ -35,7 +35,7 @@ body {
     position: fixed;
     z-index: 99999;
     margin-top: 5px;
-    margin-left: 1%;
+    margin-left: 1.5%;
     justify-content: center;
     display: flex;
   }
@@ -150,16 +150,20 @@ body {
     margin-left: 45px;
   }
 
-  .home-sign-up:hover, .home-apply-now:hover {
+  .home-sign-up:hover {
     background: rgb(113, 139, 139);
     color: white;
     font-size: 24px;
   }
 
-  .home-sign-up {
-    background-color: #74B2B0;
+  .sign-up, .sign-up:hover {
     color: white;
     font-size: 24px;
+    text-decoration: none;
+  }
+
+  .home-sign-up {
+    background-color: #74B2B0;
     width: 200px;
     margin-right: 45px;
   }
@@ -190,7 +194,8 @@ body {
   /* Contact Us */
   .contact-section {
     width: 100%;
-    height: 98vh;
+    height: 100%;
+    margin-top: 7.5%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -200,10 +205,11 @@ body {
     width: 85%;
     margin-left: 5%;
     margin-right: 5%;
+    margin-bottom: 15.65%;
   }
 
   .contacts {
-    margin-top: 60px;
+    margin-top: 7.5%;
   }
 
   .contact-us-title {
@@ -592,7 +598,7 @@ body {
     padding: 0px !important;
   }
 
-  .contact-footer, .footer-testimonial, .footer-home {
+  .footer-testimonial, .footer-home {
     bottom: 0;
   }
 
