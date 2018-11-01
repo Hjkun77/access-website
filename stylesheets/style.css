@@ -305,14 +305,23 @@ body {
   }
 
   .faq-question {
-    width: 20vw;
+    width: 22vw;
     font-size: 17px;
     font-weight: bold;
   }
 
+  .faq-arrows {
+    margin-top: 30px;
+    justify-content: center;
+    background-color: white;
+    display: grid;
+    grid-template-columns: 7.5em 7.5em;
+  }
+
   .faq-question-text {
     text-align: center;
-    margin: auto auto 5px auto;
+    margin: auto auto auto auto;
+    height: 100px;
   }
 
   .faq-dots-container {
@@ -438,13 +447,15 @@ body {
     grid-row: 3/3;
   }
 
+
+
   .testimonials-content {
     background-color: #74B2B0;
     width: 100%;
     height: 100%;
   }
 
-  .testimonials-content-controls-right, .testimonials-content-controls-left {
+  .testimonials-content-controls-right, .testimonials-content-controls-left, .faq-arrow-left, .faq-arrow-right {
     text-align: center;
     align-self: center;
     font-weight: bold;
@@ -452,7 +463,7 @@ body {
     padding: 22px 0 15px 0;
   }
 
-  .testimonials-content-controls-left:hover, .testimonials-content-controls-right:hover {
+  .testimonials-content-controls-left:hover, .testimonials-content-controls-right:hover, .faq-arrow-left:hover, .faq-arrow-right:hover {
     text-align: center;
     align-self: center;
     font-weight: bold;
@@ -483,23 +494,6 @@ body {
     font-weight: bolder;
     transform: rotate(270deg);
     text-transform: uppercase;
-  }
-
-  .arrow-boi {
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    background-color: #212529;
-  }
-
-  .left-arrow-boi {
-    left: -4%;
-    cursor: pointer;
-  }
-
-  .right-arrow-boi {
-    right: -2%;
-    cursor: pointer;
   }
 
   footer {
