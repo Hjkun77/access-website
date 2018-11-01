@@ -56,6 +56,7 @@ body {
     text-decoration: none;
   }
 
+
   .navbar-testimonials, .navbar-about {
     margin-right: 7.5vw;
   }
@@ -64,8 +65,9 @@ body {
     margin-left: 7.5vw;
   }
 
+
   .dropdown-menu {
-    margin-top: 20px;
+    margin-top: 15px;
     border-radius: 0;
     -webkit-box-shadow: 0 8px 6px 0px #999;
     -moz-box-shadow: 0 8px 6px 0px #999;
@@ -81,11 +83,11 @@ body {
   }
 
   .dropdown-menu li {
-    margin-bottom: 2rem;
+    padding-bottom: 2rem;
   }
 
   .about-dropdown li:last-of-type {
-    margin-bottom: 0.5rem;
+    padding-bottom: 0.5rem;
   }
 
   .about-dropdown {
@@ -170,11 +172,16 @@ body {
     width: 100%;
   }
 
+  .about-sustainability {
+    margin-left: -0.2px;
+  }
+
   .about-partners, .about-timeline, .about-week {
     width: 98vw;
   }
 
   .about-week {
+    margin-top: -30px;
     margin-bottom: 0px;
   }
 
