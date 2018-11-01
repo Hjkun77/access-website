@@ -46,9 +46,34 @@ body {
     transition: 0.2s all ease-in-out;
   }
 
-  .nav-item:hover ul {
-    opacity: 1 !important;
   }
+
+    .nav-item ul { display: block; opacity: 0; transition: 0.2s all ease-in-out;  }
+    .nav-item:hover ul { opacity: 1!important; }
+
+    .navbar-link {
+        white-space: nowrap;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 12px;
+        width: 100px;
+        font-weight: bold;
+        align-self: center;
+        text-align: center;
+        cursor: pointer;
+        text-decoration: none;
+        text-transform: uppercase;
+      border-bottom: 18px solid transparent; }
+
+
+      .navbar-link:hover {
+        cursor: pointer;
+        text-decoration: none;
+      }
+
+
+      .navbar-testimonials, .navbar-about {
+        margin-right: 7.5vw;
+      }
 
   .navbar-link {
     white-space: nowrap;
@@ -110,9 +135,19 @@ body {
     margin-left: 0vw;
   }
 
-  .faq-dropdown.dropdown {
-    margin-left: 2.5vw;
-  }
+    .faq-dropdown.dropdown { margin-left: 3.2vw; }
+
+
+          .faq-dropdown li:last-of-type {
+            padding-bottom: 0.5rem;
+          }
+
+/* fix the dropdown hover */
+.nav-item ul { display: block; opacity: 0; overflow: hidden; height: 0px; transition: 0.3s opacity ease-in-out, 0.7s height linear; }
+  .nav-item:hover .about-dropdown ul { display: block; height: 420px; opacity: 1!important; }
+
+.nav-item .faq-dropdown ul { transition: 0.3s opacity ease-in-out, 0.4s height linear; }
+.nav-item:hover .faq-dropdown ul { display: block; height: 150px; opacity: 1!important; }
 
   /* Home */
   .home-title {
@@ -597,6 +632,7 @@ body {
     display: flex;
     position: relative;
     justify-content: flex-end;
+    position: absolute; bottom: 3px; right: 0px;
   }
 
   .footer-credits {
