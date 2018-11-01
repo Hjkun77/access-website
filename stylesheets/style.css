@@ -40,66 +40,76 @@ body {
     display: flex;
   }
 
-  .navbar-link {
-    white-space: nowrap;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 12px;
-    width: 100px;
-    font-weight: bold;
-    align-self: center;
-    text-align: center;
-    cursor: pointer;
-    text-decoration: none;
-    text-transform: uppercase;
-  }
 
-  .navbar-link:hover {
-    cursor: pointer;
-    text-decoration: none;
-  }
+    .nav-item ul { display: block; opacity: 0; transition: 0.2s all ease-in-out;  }
+    .nav-item:hover ul { opacity: 1!important; }
 
-
-  .navbar-testimonials, .navbar-about {
-    margin-right: 7.5vw;
-  }
-
-  .navbar-faqs, .navbar-contact {
-    margin-left: 7.5vw;
-  }
+    .navbar-link {
+        white-space: nowrap;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 12px;
+        width: 100px;
+        font-weight: bold;
+        align-self: center;
+        text-align: center;
+        cursor: pointer;
+        text-decoration: none;
+        text-transform: uppercase;
+      border-bottom: 19px solid white; }
 
 
-  .dropdown-menu {
-    margin-top: 15px;
-    border-radius: 0;
-    -webkit-box-shadow: 0 8px 6px 0px #999;
-    -moz-box-shadow: 0 8px 6px 0px #999;
-    box-shadow: 0 8px 6px 0px #999;
-  }
+      .navbar-link:hover {
+        cursor: pointer;
+        text-decoration: none;
+      }
 
-  .dropdown-menu a {
-    font-size: 12px;
-    color: #212529;
-    font-weight: bold;
-    text-decoration: none;
-    text-transform: capitalize;
-  }
 
-  .dropdown-menu li {
-    padding-bottom: 2rem;
-  }
+      .navbar-testimonials, .navbar-about {
+        margin-right: 7.5vw;
+      }
 
-  .about-dropdown li:last-of-type {
-    padding-bottom: 0.5rem;
-  }
+      .navbar-faqs, .navbar-contact {
+        margin-left: 7.5vw;
+      }
 
-  .about-dropdown {
-    margin-left: -3.5rem;
-  }
 
-  .faq-dropdown li {
-    margin-bottom: 0;
-    margin-left: 4vw;
-  }
+
+    .dropdown-menu {
+    background: bluee;
+        margin-top: 15px;
+        border-radius: 0;
+        -webkit-box-shadow: 0 4px 5px 0px rgba(60,60,60,0.8);
+        -moz-box-shadow: 0 4px 5px 0px rgba(60,60,60,0.4);
+        box-shadow: 0 4px 4px 0px rgba(60,60,60,0.4);
+      }
+
+      .dropdown-menu a {
+        font-size: 12px;
+        color: #212529;
+        font-weight: bold;
+        text-decoration: none;
+        text-transform: capitalize;
+      }
+
+
+      .dropdown-menu li {
+        padding-bottom: 2rem;
+      }
+
+      .about-dropdown li:last-of-type {
+        padding-bottom: 0.5rem;
+      }
+
+      .about-dropdown {
+        margin-left: -3.5rem;
+      }
+
+      .faq-dropdown li {
+        margin-bottom: 0;
+        margin-left: 0vw;
+      }
+
+    .faq-dropdown.dropdown { margin-left: 2.5vw; }
 
   /* Home */
   .home-title {
