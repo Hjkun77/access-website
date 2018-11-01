@@ -207,9 +207,7 @@ body {
     margin-top: 60px;
   }
 
-  .contact-footer {
-    bottom: 0;
-  }
+
   .contact-us-title {
     font-size: 28px;
     width: 100%;
@@ -405,7 +403,6 @@ body {
     display: grid;
     grid-template-columns: 30em 30em 10em;
     grid-template-rows: 60px 300px 60px;
-    margin-bottom: 6.2rem;
   }
 
   .testimonial-image {
@@ -595,4 +592,9 @@ body {
     margin: 0px !important;
     padding: 0px !important;
   }
+
+  .contact-footer, .footer-testimonial, .footer-home {
+    bottom: 0;
+  }
+
 }
