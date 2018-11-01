@@ -1,6 +1,6 @@
-const sheetURL = 'https://script.google.com/macros/s/AKfycbwZOVwfLxmd8oNRui0JrlQRPzhRSUc8uIaz9e0jROwlxNfX4biN/exec'
+const sheetURL = 'https://script.google.com/macros/s/AKfycbwdLNRRkzezw9rW83q57SpwFjltKpCYD4iYW1YT3z35Y7aeFkgc/exec'
 
-const form = $('#contactForm')
+const form = $('form#contact-form')
 
 $.fn.serializeObject = function()
 {
@@ -24,8 +24,8 @@ $('.contact-button').on('click', function(e) {
   e.preventDefault()
   $.ajax({
     url: sheetURL,
-    method: 'GET',
-    dataType: 'json',
+    method: "GET",
+    dataType: "json",
     data:  form.serializeObject(),
     success: function() {
       form.trigger('reset')
