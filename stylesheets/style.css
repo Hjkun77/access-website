@@ -396,7 +396,7 @@ body {
     position: relative;
     margin-top: 7.5vw;
     display: grid;
-    grid-template-columns: 30em 30em auto;
+    grid-template-columns: 30em 30em 10em;
     grid-template-rows: 60px 300px 60px;
     margin-bottom: 6.2rem;
   }
@@ -430,7 +430,6 @@ body {
     grid-column: 2/2;
     grid-row: 2/2;
     overflow-y: scroll;
-    margin-bottom: 0px !important;
     padding: 15px 30px 15px 30px;
     margin-bottom: 15px;
   }
@@ -457,8 +456,21 @@ body {
     grid-column: 2/2;
     grid-row: 3/3;
   }
+/*
+  .testimonials-title {
+    width: 12%;
+    display: flex;
+    align-items: center;
+    position: relative;
+    z-index: -1;
+  }
 
-
+   .testimonials-vertical {
+    font-size: 30px;
+    font-weight: bolder;
+    transform: rotate(270deg);
+    text-transform: uppercase;
+  } */
 
   .testimonials-content {
     background-color: #74B2B0;
