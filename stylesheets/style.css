@@ -141,6 +141,13 @@ body {
             padding-bottom: 0.5rem;
           }
 
+/* fix the dropdown hover */
+.nav-item ul { display: block; opacity: 0; overflow: hidden; height: 0px; transition: 0.3s opacity ease-in-out, 0.7s height linear; }
+  .nav-item:hover .about-dropdown ul { display: block; height: 420px; opacity: 1!important; }
+
+.nav-item .faq-dropdown ul { transition: 0.3s opacity ease-in-out, 0.4s height linear; }
+.nav-item:hover .faq-dropdown ul { display: block; height: 150px; opacity: 1!important; }
+
   /* Home */
   .home-title {
     margin-top: 3em;
@@ -624,6 +631,7 @@ body {
     display: flex;
     position: relative;
     justify-content: flex-end;
+    position: absolute; bottom: 3px; right: 0px;
   }
 
   .footer-credits {
