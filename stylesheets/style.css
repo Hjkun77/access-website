@@ -203,6 +203,13 @@ body {
     position: fixed;
   }
 
+  .contacts {
+    margin-top: 60px;
+  }
+
+  .contact-footer {
+    bottom: 0;
+  }
   .contact-us-title {
     font-size: 28px;
     width: 100%;

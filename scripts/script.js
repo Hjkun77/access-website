@@ -71,10 +71,3 @@ $('.dot-7').click(function () {
 $('.dot-8').click(function () {
   $('.carousel').carousel(7)
 })
-
-$('.left-arrow-boi').click(function() {
-  $('.carousel').carousel('prev')
-})
-$('.right-arrow-boi').click(function() {
-  $('.carousel').carousel('next')
-})
