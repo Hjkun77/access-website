@@ -55,7 +55,7 @@ body {
         cursor: pointer;
         text-decoration: none;
         text-transform: uppercase;
-      border-bottom: 19px solid white; }
+      border-bottom: 19px solid transparent; }
 
 
       .navbar-link:hover {
@@ -109,7 +109,12 @@ body {
         margin-left: 0vw;
       }
 
-    .faq-dropdown.dropdown { margin-left: 2.5vw; }
+    .faq-dropdown.dropdown { margin-left: 3.2vw; }
+
+
+          .faq-dropdown li:last-of-type {
+            padding-bottom: 0.5rem;
+          }
 
   /* Home */
   .home-title {
