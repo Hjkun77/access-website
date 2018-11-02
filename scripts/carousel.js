@@ -1,5 +1,5 @@
 $('.carousel').carousel({
-  interval: 5000,
+  interval: 1000,
 });
 
 $('.dot-1').click(function () {
@@ -26,3 +26,9 @@ $('.dot-7').click(function () {
 $('.dot-8').click(function () {
   $('.carousel').carousel(7)
 })
+
+$('.testimonials-container' || '.faq-container').hover(function(){
+   $(".carousel").carousel('pause');
+},function(){
+   $(".carousel").carousel('cycle');
+});
