@@ -426,6 +426,14 @@ body {
   width: 25px;
 }
 
+#guidelines {
+  padding: 5%;
+}
+
+#guidelines img {
+  width: 100%;
+}
+
 /* Testimonials */
 .carousel-fade .carousel-inner .item {
   opacity: 0;
@@ -491,7 +499,7 @@ body {
   grid-column: 2/2;
   grid-row: 2/2;
   text-align: center;
-  color: black;
+  color: white;
   font-size: 20px;
   font-weight: bold;
   font-style: italic;
@@ -500,7 +508,7 @@ body {
 
 .testimonials-name {
   text-align: center;
-  color: black;
+  color: white;
   font-size: 30px;
   font-weight: bold;
   font-style: italic;
@@ -511,7 +519,7 @@ body {
 
 .testimonials-text {
   text-align: justify;
-  color: black;
+  color: white;
   font-size: 15px;
   font-style: italic;
   width: 100%;
@@ -545,21 +553,6 @@ body {
   grid-row: 4/4;
 }
 
-/*
-  .testimonials-title {
-    width: 12%;
-    display: flex;
-    align-items: center;
-    position: relative;
-    z-index: -1;
-  }
-
-   .testimonials-vertical {
-    font-size: 30px;
-    font-weight: bolder;
-    transform: rotate(270deg);
-    text-transform: uppercase;
-  } */
 .testimonials-content {
   background-color: #74B2B0;
   width: 100%;
@@ -572,6 +565,7 @@ body {
   font-weight: bold;
   cursor: pointer;
   padding: 22px 0 15px 0;
+  color: #74B2B0
 }
 
 .testimonials-content-controls-left:hover, .testimonials-content-controls-right:hover, .faq-arrow-left:hover, .faq-arrow-right:hover {
@@ -580,6 +574,7 @@ body {
   font-weight: bold;
   cursor: pointer;
   background: rgb(113, 139, 139);
+  color: white;
 }
 
 .testimonials-dots-set {
